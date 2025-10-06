@@ -1,0 +1,25 @@
+<HTML>
+<HEAD><TITLE> EJ1-Formularios</TITLE></HEAD>
+<BODY>
+
+    <form name="calculadora" action="calculadora.php" method="post">
+        
+        <label>Operando1:</label>
+        <input type="number" name="num1" required><br><br>
+
+        <label>Operando2:</label>
+        <input type="number" name="num2" required><br><br>
+
+        <label>Selecciona operacion:</label><br>
+        <input type="radio" name="operacion" value="suma" checked> Suma<br>
+        <input type="radio" name="operacion" value="resta"> Resta<br>
+        <input type="radio" name="operacion" value="producto"> Producto<br>
+        <input type="radio" name="operacion" value="division"> Division<br><br>
+
+        <input type="submit" value="enviar">
+        <input type="reset" value="borrar">
+
+    </form>
+
+</BODY>
+</HTML>
