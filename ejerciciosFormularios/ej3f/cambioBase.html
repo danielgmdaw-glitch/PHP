@@ -1,0 +1,22 @@
+<HTML>
+<HEAD><TITLE> EJ3-Formularios</TITLE></HEAD>
+<BODY>
+    <h1>Conversor Numerico</h1>
+    <form name="cambiobase" action="cambioBase.php" method="post">
+        
+        <label>Numero Decimal:</label>
+        <input type="number" name="num" required><br><br>
+
+        <label>Convertir a:</label><br>
+        <input type="radio" name="cambio" value="binario" checked> Binario<br>
+        <input type="radio" name="cambio" value="octal"> Octal<br>
+        <input type="radio" name="cambio" value="hexadecimal"> Hexadecimal<br>
+        <input type="radio" name="cambio" value="todos"> Todos sistemas<br><br>
+
+        <input type="submit" value="enviar">
+        <input type="reset" value="borrar">
+
+    </form>
+
+</BODY>
+</HTML>
