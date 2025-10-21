@@ -1,0 +1,27 @@
+<HTML>
+<HEAD><TITLE> EJ6-Formularios</TITLE></HEAD>
+<BODY>
+    <h2>Formulario de datos del alumno</h2>
+    <form action="datos.php" method="post">
+        <label>Nombre: </label>
+        <input type="text" name="nombre" required>* Obligatorio<br><br>
+
+        <label>Apellido 1: </label>
+        <input type="text" name="apellido1"><br><br>
+
+        <label>Apellido 2: </label>
+        <input type="text" name="apellido2"><br><br>
+        
+        <label>Email: </label>
+        <input type="email" name="correo" required> * Obligatorio<br><br>
+
+        <label>Sexo: </label>
+        <input type="radio" name="sexo" value="hombre" required> Hombre
+        <input type="radio" name="sexo" value="mujer"> Mujer   * Obligtorio
+
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Borrar">
+        <br>
+    </form>
+
+</BODY>
