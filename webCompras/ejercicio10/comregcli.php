@@ -29,7 +29,7 @@ if (!isset($_POST) || empty($_POST)) {
             } else {
                 echo "<p style='color:red;'>ERROR: El NIF debe tener 8 números y una letra al final.</p>";
             }
-            mostrarFormularioClientes();
+            formularioRegistro();
             exit();
         }
 
